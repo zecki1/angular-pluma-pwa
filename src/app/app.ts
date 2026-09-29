@@ -16,10 +16,10 @@ interface ItemNav {
 export class App {
   private readonly supabase = inject(SupabaseService);
 
-  protected readonly titulo = 'Pluma';
+  readonly titulo = 'Pluma';
   protected readonly tagline = 'App financeiro offline-first — service worker, cache e instalação';
   protected readonly semana = 7;
-  protected readonly nav: ItemNav[] = [
+  readonly nav: ItemNav[] = [
     { path: '/login', rotulo: 'Login' },
     { path: '/dashboard', rotulo: 'Dashboard' },
     { path: '/transacoes', rotulo: 'Transacoes' },
