@@ -9,7 +9,7 @@ import { SupabaseService } from '../../core/supabase';
 export class ConfiguracoesPage {
   private readonly supabase = inject(SupabaseService);
 
-  protected readonly titulo = 'Configuracoes';
+  readonly titulo = 'Configuracoes';
   protected readonly descricao = 'Estado do service worker e instalação A2HS.';
   protected readonly slugProjeto = 'pluma';
 
