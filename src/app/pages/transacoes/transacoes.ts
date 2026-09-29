@@ -9,7 +9,7 @@ import { SupabaseService } from '../../core/supabase';
 export class TransacoesPage {
   private readonly supabase = inject(SupabaseService);
 
-  protected readonly titulo = 'Transacoes';
+  readonly titulo = 'Transacoes';
   protected readonly descricao = 'Histórico paginado a partir do cache local.';
   protected readonly slugProjeto = 'pluma';
 
