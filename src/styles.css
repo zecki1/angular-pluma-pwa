@@ -1,4 +1,10 @@
-@import 'tailwindcss';
+@import 'tailwindcss' source(none);
+
+/* O app não usa classes utilitárias (o CSS é por componente). Escopar o scan a
+   `src/` evita que markdown (README/docs) vire candidato e infle o CSS. */
+@source './app';
+@source './index.html';
+
 
 :root {
   color-scheme: dark;

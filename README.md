@@ -7,7 +7,7 @@
 ![Unit Tests](https://img.shields.io/badge/Unit-6%2F6%20passing-brightgreen)
 ![ESLint](https://img.shields.io/badge/ESLint-0%20errors-green)
 ![A11y](https://img.shields.io/badge/axe-0%20critical%20violations-brightgreen)
-![Lighthouse](https://img.shields.io/badge/Lighthouse-100%2F100%2F100%2F100-success)
+![Lighthouse](https://img.shields.io/badge/Lighthouse-Perf%2099%20%C2%B7%20A11y%2FBP%2FSEO%20100-success)
 
 > PWA financeiro **offline-first**: Service Worker, cache, fila de sincronização e instalação (A2HS).
 > Pilar **Dashboard** · Semanas 7 e 10 do roadmap · Milestone `m1-pluma, m2-perf` · Demo pública no GitHub Pages.
@@ -108,7 +108,7 @@ navega e exibe um aviso. Nenhuma tela quebra por falta de credencial.
 | **Cobertura** | 76,7% statements · 69,0% branches · 78,6% lines |
 | **E2E (Playwright)** | 9/9 passando (axe + screenshots) |
 | **Acessibilidade (axe)** | 0 violações graves/críticas nas 4 telas |
-| **Lighthouse** | Performance **100** · A11y **100** · Best Practices **100** · SEO **100** |
+| **Lighthouse** | Performance **99** (98–99) · A11y **100** · Best Practices **100** · SEO **100** |
 | **ESLint** | 0 erros · 0 warnings |
 | **Bundle inicial** | 472,8 kB (≈115,0 kB transfer) |
 | **Responsivo** | mobile (390) / desktop (1440) |
