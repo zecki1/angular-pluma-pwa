@@ -56,10 +56,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "pluma-pwa:build:production"
+              "buildTarget": "angular-pluma-pwa:build:production"
             },
             "development": {
-              "buildTarget": "pluma-pwa:build:development"
+              "buildTarget": "angular-pluma-pwa:build:development"
             }
           },
           "defaultConfiguration": "development"
